@@ -17,8 +17,9 @@ class ModelUtils {
 	 * @return Tarif tarif actuel de $disque
 	 */
 	public static function getDisqueTarif($disque){
-		//TODO 4.1
-		return null;
+		$tarif = $disque.self::getDisqueTarif();
+		return $tarif;
+
 	}
 
 	/**
